@@ -4,7 +4,7 @@ data = CSV.open('notas.csv').readlines
 
 def nota_mas_alta(data)
    
-    numbers = data.map { |x| x.to_i }
+    numbers = data.map { |x| x.to_i } #(&:to_i) 
    
     best_grade = numbers.max
 
