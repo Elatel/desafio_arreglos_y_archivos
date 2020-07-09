@@ -5,7 +5,7 @@ n.times do |i|
     array.push data[i].to_i
 end
 
-def proyections_first(array)
+def projections(array)
     first_half = []
     second_half = []
     sum_first = 0
@@ -43,7 +43,7 @@ def proyections_first(array)
     end
 end
 
-proyections_first(array)
+projections(array)
 
 
 
