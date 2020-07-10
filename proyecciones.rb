@@ -1,5 +1,5 @@
 data = open('ventas_base.txt').read.chomp.split(',')
-array = []
+array = [] #array.each_slice(2).to_a
 n = data.count
 n.times do |i|
     array.push data[i].to_i
